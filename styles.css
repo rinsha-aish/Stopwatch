@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap");
 
 body {
-  background: #ffffff;
+  background: #ddb48e;
   font-family: "Courier Prime", monospace;
 }
 .stopwatch {
   width: 90%;
   max-width: 600px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(
+      rgba(55, 54, 54, 0.8),
+      rgba(41, 40, 40, 0.8)
+    ),
     url(images/background.png);
   background-size: cover;
   background-position: center;
@@ -15,7 +18,8 @@ body {
   padding: 40px 0;
   color: white;
   margin: 200px auto 0;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px rgba(23, 22, 22, 0.2);
+  border-radius: 20px;
 }
 
 .stopwatch h1 {
